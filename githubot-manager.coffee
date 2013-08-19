@@ -8,7 +8,7 @@
 #	git list issues for <repo>
 #	git create issue for <repo> with title <title> and body <issue_body>
 #	git close issue <issue_number> for <repo>
-#   git list my repos
+#	git list my repos
 #	git list repos for <git-user>
 #	git list list org repos for <git-org>
 #	git list my gists
@@ -16,15 +16,15 @@
 #	git delete gist <gistID>
 #
 # Configuration:
-#   HUBOT_GITHUB_TOKEN - your token for github
+#	HUBOT_GITHUB_TOKEN - your token for github
 #	HUBOT_GITHUB_USER - github user
 #
 # Depencencys
-#   githubot
+# 	githubot
 #
 # Notes:
-#   To get a token: curl -i https://api.github.com/authorizations -d '{"scopes":["repo","gist"]}' -u "username"
-#   This lets you merge pull requests, list members/issues/and pulls for a github repo/org
+#	To get a token: curl -i https://api.github.com/authorizations -d '{"scopes":["repo","gist"]}' -u "username"
+#	This lets you merge pull requests, list members/issues/and pulls for a github repo/org
 
 mergedPullRequests = [
 	"http://24.media.tumblr.com/tumblr_m53neamBi61rwqv34o1_500.gif",
